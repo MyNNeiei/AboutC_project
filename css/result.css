@@ -37,34 +37,6 @@ body{
     font-size: 0.8rem;
 }
 
-.objective{
-    padding: 30px 0 0 150px;
-}
-.objective h1{
-    text-align: left;
-    font-size: 70px;
-}
-.member_line{
-    height: 5px;
-    width: 12%;
-    margin-top: -40px;
-    margin-left: 380px;
-    left: 50px;
-    border: none;
-    color: #02C1ED;
-    background-color: #02C1ED;
-}
-.par-1{
-    margin: 20px  100px 0 100px;
-    overflow-x: hidden;
-}
-.par-1 p{
-    font-size: 18px;
-}
-.par-2 {
-    margin: 20px  100px 0 100px;
-    overflow-x: hidden;
-}
 @media screen and (min-width:850px){
     .navbar li{
         width: 130px;
@@ -97,13 +69,33 @@ body{
     .navbar li ul li{
         display: block;
     }
-    .par-1{
-    margin: 20px  200px 0 350px;
-}
-.par-1 p{
-    font-size: 18px;
-}
-.par-2 {
-    margin: 20px  200px 0 350px;
-}
+    .middle{
+        padding: 0;
+        margin: 0;
+        background-color: #57BEE6;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        overflow-x: hidden;
+    }
+    .firstone{
+        font-size: 150px;
+        z-index: 4;
+        padding:  0  0 0 20%;
+        margin: 0;
+        position: relative;
+        color: #FEAC25;
+        text-shadow: 15px 15px #3B444B;
+    }
+    .secone{
+        font-size: 150px;
+        z-index: 4;
+        padding:  0  0 0 30%;
+        margin: 0;
+        position: relative;
+        color: #FEAC25;
+        text-shadow: 15px 15px #3B444B;
+    }
 }

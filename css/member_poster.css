@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+    background: #FEAC25;
+}
 .poster{
     display: block;
     width: 50%;
@@ -20,12 +26,6 @@
     border: none;
     color: aqua;
     background-color: aqua;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans Thai Looped', sans-serif;
-    background: #fff;
 }
 
 .navbar ul{
@@ -95,65 +95,48 @@ body{
 }
 
 .member_label{
-    margin-left: 20%;
+    margin-left: 200px;
     font-size: 90px;
 }
 
 .member_line{
-    position: absolute;
     height: 5px;
     width: 12%;
     margin-top: -6.5%;
-    left: 30%;
+    left: 200px;
     border: none;
     color: aqua;
     background-color: aqua;
 }
 
-.mem1{
-    position: absolute;
+.memall{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.memall .mem1card{
+    display: inline-block;
+    margin: 20px 30px;
+}
+.memall .mem1{
     border-radius: 50%;
-    width: 18%;
-    top: 40%;
-    left: 10%;
+    width: 300px;
+    height: 300px;
 }
 
-.mem2{
-    position: absolute;
+.memall .mem2{
     border-radius: 50%;
-    width: 18%;
-    top: 40%;
-    left: 40%;
+    width: 300px;
+    height: 300px;
 }
 
-.mem3{
-    position: absolute;
+.memall .mem3{
     border-radius: 50%;
-    width: 18%;
-    top: 40%;
-    left: 70%;
+    width: 300px;
+    height: 300px;
 }
-
-.mem1t{
-    position: absolute;
-    top: 75%;
-    left: 11.5%;
+.memall .mem1card p{
     text-align: center;
-    font-size: 25px;
-}
-
-.mem2t{
-    position: absolute;
-    top: 75%;
-    left: 41%;
-    text-align: center;
-    font-size: 25px;
-}
-
-.mem3t{
-    position: absolute;
-    top: 75%;
-    left: 73%;
-    text-align: center;
+    color: #3B444B;
     font-size: 25px;
 }
