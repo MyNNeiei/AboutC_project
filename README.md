@@ -44,7 +44,7 @@
 # Website Project
 https://mynneiei.github.io/AboutC_project/
 
-# YouTube สาธิตการทำงาน
+# วิดีโอสาธิตการทำงาน
 https://youtu.be/FyxdC8EgpBw?si=d3bWtFdo_XfDk0Or
 
 # Source Code
