@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans Thai Looped', sans-serif;
-    background: #57BEE6;
+    background: #fff;
 }
 
 .navbar ul{
@@ -36,25 +36,8 @@ body{
 .navbar li li{
     font-size: 0.8rem;
 }
-.allresult{
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-.t-link a{
-    font-size: 100px;
-    text-decoration: underline;
-    color: #3B444B;
-}
-.t-link1{
-    margin-left: 100px;
-}
-.t-link1 a{
-    font-size: 100px;
-    text-decoration: underline;
-    color: #3B444B;
+.expain{
+    padding: 100px 50px;
 }
 @media screen and (min-width:850px){
     .navbar li{
@@ -87,34 +70,5 @@ body{
     }
     .navbar li ul li{
         display: block;
-    }
-    .middle{
-        padding: 0;
-        margin: 0;
-        background-color: #57BEE6;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: start;
-        overflow-x: hidden;
-    }
-    .firstone{
-        font-size: 150px;
-        z-index: 4;
-        padding:  0  0 0 20%;
-        margin: 0;
-        position: relative;
-        color: #FEAC25;
-        text-shadow: 15px 15px #3B444B;
-    }
-    .secone{
-        font-size: 150px;
-        z-index: 4;
-        padding:  0  0 0 30%;
-        margin: 0;
-        position: relative;
-        color: #FEAC25;
-        text-shadow: 15px 15px #3B444B;
     }
 }
