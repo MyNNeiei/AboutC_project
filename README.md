@@ -45,16 +45,51 @@
 https://nickanyp.github.io/Project-Compro/
 
 # YouTube สาธิตการทำงาน
-https://www.youtube.com/watch?v=vNhkyRTJzG8
+https://youtu.be/FyxdC8EgpBw?si=d3bWtFdo_XfDk0Or
 
 # Source Code
-<img src="https://cdn.discordapp.com/attachments/963437675103289404/971074275949834280/1.PNG">
-<img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276218261554/2.PNG">
-<img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276503486484/3.PNG">
-<img src="https://cdn.discordapp.com/attachments/963437675103289404/971074276964831282/4.PNG">
-<img src="https://cdn.discordapp.com/attachments/963437675103289404/971074277170376734/5.PNG">
+    void setup()
+    {
+        Serial.begin(9600);
+        pinMode(6, OUTPUT);
+        pinMode(5, INPUT);
+        pinMode(2, OUTPUT);
+    }
+    void loop()
+    {
+        long period, length;
+        float new_delay;
+        digitalWrite(6, LOW);
+        delayMicroseconds(2);
+        digitalWrite(6, HIGH);
+        delayMicroseconds(10);
+        digitalWrite(6, LOW);
+        period = pulseIn(5, HIGH);
+        length = (period / 2) / 29.1;
+        if (length < 50)
+        {
+            if (length < 10)
+            {
+                new_delay = 50;
+            }
+            else
+            {
+                new_delay = (length * 3) + 30;
+            }
+            digitalWrite(2, HIGH);
+            delay(new_delay);
+            digitalWrite(2, LOW);
+        }
+        else
+        {
+            digitalWrite(2, LOW);
+        }
+        Serial.print(length);
+        Serial.println(" cm");
+        delay(200);
+    }
 
-# Member
+# สมาชิกกลุ่ม
 1.      นางสาวกุลนันท์ สุนันท์ 65070023
 2.      นายณภัทร มากสมบูรณ์ 65070062
 3.      นายณัฐวัตร จันโท 65070084
