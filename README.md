@@ -21,9 +21,6 @@
 - Arduino UNO
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsR8s4x-Aiywlqgw3OVy0u8jUW8uJ-V3mstw&usqp=CAU" width="150px">
 
-- USB type A to USB type B
-<img src="https://inwfile.com/s-fw/cr6shp.jpg" width="150px">
-
 - BreadBoard
 <img src="https://inwfile.com/s-fp/ottf4f.jpg" width="150px">
 
