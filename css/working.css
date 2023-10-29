@@ -37,9 +37,20 @@ body{
     font-size: 0.8rem;
 }
 .expain{
-    padding: 100px 50px;
+    padding: 200px 50px;
+    display: flex;
+    flex-direction: column;
 }
-@media screen and (min-width:850px){
+.vdo{
+    margin-right: 40px;
+}
+.text h3{
+    font-size: 30px;
+}
+.vdo video{
+    width: 500px;
+}
+@media screen and (min-width:990px){
     .navbar li{
         width: 130px;
         border-bottom: none;
@@ -70,5 +81,20 @@ body{
     }
     .navbar li ul li{
         display: block;
+    }
+    .expain{
+        padding: 100px 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .vdo{
+        margin-bottom: 40px;
+    }
+    .vdo video{
+        width: 700px;
+    }
+    .text h3{
+        font-size: 40px;
     }
 }

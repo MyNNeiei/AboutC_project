@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans Thai Looped', sans-serif;
-    background: #fff;
+    background: #57BEE6;
 }
 
 .navbar ul{
@@ -37,12 +37,12 @@ body{
     font-size: 0.8rem;
 }
 .title{
-    font-size: 100px;
+    font-size: 60px;
     font-weight: 600;
     margin: 0 0 0 300px;
 }
 .line{
-    width: 200px;
+    width: 100px;
     height: 5px;
     margin-top: -1.5%;
     left: 50px;
@@ -146,5 +146,19 @@ body{
     }
     .alltools .tool h3{
         color: #3B444B;
+    }
+    .title{
+        font-size: 100px;
+        font-weight: 600;
+        margin: 0 0 0 300px;
+    }
+    .line{
+        width: 200px;
+        height: 5px;
+        margin-top: -1.5%;
+        left: 50px;
+        border: none;
+        color: aqua;
+        background-color: aqua;
     }
 }

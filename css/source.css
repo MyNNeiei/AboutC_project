@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans Thai Looped', sans-serif;
-    background: #fff;
+    background: #57BEE6;
 }
 
 .navbar ul{
@@ -36,7 +36,29 @@ body{
 .navbar li li{
     font-size: 0.8rem;
 }
-
+.source{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.cardcode{
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #3B444B;
+    position: absolute;
+    left: 62%;
+    top: 15%;
+    overflow: scroll;
+    color: #FEAC25;
+}
+.cardcode p {
+    margin-left: 30px;
+}
+.img img{
+    width: 600px;
+    margin-top: 15%;
+}
 @media screen and (min-width:850px){
     .navbar li{
         width: 130px;
@@ -68,5 +90,28 @@ body{
     }
     .navbar li ul li{
         display: block;
+    }
+    .source{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .cardcode{
+        width: 500px;
+        height: 700px;
+        border-radius: 20px;
+        background-color: #3B444B;
+        position: absolute;
+        left: 62%;
+        top: 15%;
+        overflow: scroll;
+        color: #FEAC25;
+    }
+    .cardcode p {
+        margin-left: 30px;
+    }
+    .img img{
+        width: 600px;
+        margin-top: 15%;
     }
 }

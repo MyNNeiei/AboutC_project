@@ -59,7 +59,56 @@ body{
 .navbar li li{
     font-size: 0.8rem;
 }
+.member_label{
+    margin-left: 200px;
+    font-size: 90px;
+}
 
+.member_line{
+    height: 5px;
+    width: 12%;
+    margin-top: -6.5%;
+    left: 200px;
+    border: none;
+    color: aqua;
+    background-color: aqua;
+}
+.member_label{
+    margin-left: 100px;
+    font-size: 50px;
+}
+.memall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+.memall .mem1card{
+    display: inline-block;
+    margin: 20px 30px;
+}
+.memall .mem1{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.memall .mem2{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.memall .mem3{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.memall .mem1card p{
+    text-align: center;
+    color: #3B444B;
+    font-size: 25px;
+}
 @media screen and (min-width:850px){
     .navbar li{
         width: 130px;
@@ -92,51 +141,56 @@ body{
     .navbar li ul li{
         display: block;
     }
+    .member_label{
+        margin-left: 200px;
+        font-size: 90px;
+    }
+    
+    .member_line{
+        height: 5px;
+        width: 12%;
+        margin-top: -6.5%;
+        left: 200px;
+        border: none;
+        color: aqua;
+        background-color: aqua;
+    }
+    
+    .memall{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .memall .mem1card{
+        display: inline-block;
+        margin: 20px 30px;
+    }
+    .memall .mem1{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .memall .mem2{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .memall .mem3{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+    .memall .mem1card p{
+        text-align: center;
+        color: #3B444B;
+        font-size: 25px;
+    }
+    .member_label{
+        margin-left: 200px;
+        font-size: 90px;
+    }
 }
 
-.member_label{
-    margin-left: 200px;
-    font-size: 90px;
-}
 
-.member_line{
-    height: 5px;
-    width: 12%;
-    margin-top: -6.5%;
-    left: 200px;
-    border: none;
-    color: aqua;
-    background-color: aqua;
-}
-
-.memall{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.memall .mem1card{
-    display: inline-block;
-    margin: 20px 30px;
-}
-.memall .mem1{
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-.memall .mem2{
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-.memall .mem3{
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-.memall .mem1card p{
-    text-align: center;
-    color: #3B444B;
-    font-size: 25px;
-}
