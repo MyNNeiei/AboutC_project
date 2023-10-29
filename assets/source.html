@@ -33,5 +33,53 @@
             </ul>
         </div>
         </header>
+        <div class="source">
+            <div class="img">
+                <img src="../Circurit.PNG" alt="picircuit">
+            </div>
+            <div class="cardcode">
+                <p>
+                void setup() <br>
+                { <br>
+                  Serial.begin(9600);<br>
+                  pinMode(6, OUTPUT);<br>
+                  pinMode(5, INPUT);<br>
+                  pinMode(2, OUTPUT);<br>
+                }
+                void loop()<br>
+                {
+                  long period, length;<br>
+                  float new_delay;<br>
+                  digitalWrite(6, LOW);<br>
+                  delayMicroseconds(2);<br>
+                  digitalWrite(6, HIGH);<br>
+                  delayMicroseconds(10);<br>
+                  digitalWrite(6, LOW);<br>
+                  period = pulseIn(5, HIGH);<br>
+                  length = (period / 2) / 29.1;<br>
+                  if (length < 50)<br>
+                  {<br>
+                    if (length < 10)<br>
+                    {<br>
+                      new_delay = 50;<br>
+                    }<br>
+                    else<br>
+                    {<br>
+                      new_delay = (length * 3) + 30;<br>
+                    }
+                    digitalWrite(2, HIGH);<br>
+                    delay(new_delay);<br>
+                    digitalWrite(2, LOW);<br>
+                  }<br>
+                  else<br>
+                  {<br>
+                    digitalWrite(2, LOW);<br>
+                  }<br>
+                  Serial.print(length);<br>
+                  Serial.println(" cm");<br>
+                  delay(200);<br>
+                }</p>
+            </div>
+        </div>
 </body>
 </html>
