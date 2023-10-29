@@ -42,7 +42,7 @@
 โปรแกรมการทำงานของวงจร BEEP WITH ULTRASONIC SENSOR : https://www.tinkercad.com/things/gpmrNGYOjk8-fantabulous-lappi-bigery/editel
 
 # Website Project
-https://nickanyp.github.io/Project-Compro/
+https://mynneiei.github.io/AboutC_project/
 
 # YouTube สาธิตการทำงาน
 https://youtu.be/FyxdC8EgpBw?si=d3bWtFdo_XfDk0Or
