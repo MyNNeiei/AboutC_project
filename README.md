@@ -39,7 +39,7 @@
 3.      เมื่อมีวัตถุหรือสิ่งของผ่านมาด้านหน้าของ Ultrasonic sensor ในระยะที่กำหนดตัว ลำโพงจะทำการส่งเสียงเตือน
 <img src="https://github.com/MyNNeiei/AboutC_project/blob/main/Circurit.PNG">
 
-โปรแกรมการทำงานของวงจร BEEP WITH ULTRASONIC SENSOR : https://www.tinkercad.com/things/gpmrNGYOjk8-fantabulous-lappi-bigery/editel
+โปรแกรมการทำงานของวงจร BEEP WITH ULTRASONIC SENSOR : https://www.tinkercad.com/things/gpmrNGYOjk8?sharecode=jUjotI3MGgs45FMWjk-l50TRAoaBrZhdh2c0xE6BBdk
 
 # Website Project
 https://mynneiei.github.io/AboutC_project/
