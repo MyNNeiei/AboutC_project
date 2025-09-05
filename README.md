@@ -31,7 +31,7 @@
 <img src="https://inwfile.com/s-dm/scscev.jpg" width="150px">
 
 - Buzzer
-<img src="https://static.robomart.com/image/cache/catalog/RM000338/piezo-buzzer-b-10n-piezo-electric-buzzers-rm0338-by-robomart-399-500x500.jpg.webp" width="150px">
+<img src="https://m.media-amazon.com/images/I/61BGvIZSb4L.jpg" width="150px">
 
 # หลักการทำงาน
 1.      ทำการเสียบตัวของ USB เข้ากับแหล่งกำเนิดไฟเช่น พาวเวอร์แบงค์
